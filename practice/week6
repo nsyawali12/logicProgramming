@@ -1,0 +1,1 @@
+add3andtimes2(X,Y):- Y is (X+3)*2.

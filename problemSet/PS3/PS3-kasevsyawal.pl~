@@ -1,0 +1,23 @@
+modadd(A,B,N,Result):-
+    X is A+B,
+    Result is X mod N.
+
+modmul(A,B,N,Result):-
+    X is A*B,
+    Result is X mod N.
+
+%problem2.
+
+
+
+%problem3.
+
+fibo(A,B,N,F):-
+    A >= 0,
+    B > 0,
+    A1 is A-1,
+    B1 is B-2,
+    fibo(A1,N1),
+    fibo(B1,N2),
+    F is N1+N2.
+
