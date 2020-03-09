@@ -1,0 +1,2 @@
+# logicProgramming
+logic programming documentation
